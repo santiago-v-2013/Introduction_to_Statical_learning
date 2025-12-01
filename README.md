@@ -1,97 +1,97 @@
-# IND2627 - Introducción al Aprendizaje Estadístico
+# IND2627 - Introduction to Statistical Learning
 
-Este repositorio contiene las tareas, ejercicios y actividades del curso **IND2627 - Introducción al Aprendizaje Estadístico**. El contenido cubre diversos temas de machine learning y análisis estadístico, implementados en Python usando Jupyter Notebooks.
+This repository contains homework assignments, exercises, and activities for the course **IND2627 - Introduction to Statistical Learning**. The content covers various machine learning and statistical analysis topics, implemented in Python using Jupyter Notebooks.
 
-## 📚 Contenido del Repositorio
+## 📚 Repository Content
 
-### Tareas (Homeworks)
+### Homework Assignments
 
-#### **Homework 1 - Regresión Lineal Múltiple**
-- **Exercise 1**: Análisis exploratorio de datos y regresión lineal múltiple
-- **Exercise 2**: Validación de modelos y análisis de residuos
-- **Exercise 3**: Predicción y evaluación de modelos
+#### **Homework 1 - Multiple Linear Regression**
+- **Exercise 1**: Exploratory data analysis and multiple linear regression
+- **Exercise 2**: Model validation and residual analysis
+- **Exercise 3**: Prediction and model evaluation
 - **Datasets**: `Default.csv`, `Insurance.csv`
 
-#### **Homework 2 - Métodos de Regularización y Selección de Variables**
-- **Exercise 1**: Best Subset Selection, Forward y Backward Stepwise Selection (Dataset: Hitters)
-- **Exercise 2**: Ridge y LASSO Regression (Dataset: Hitters)
-- **Exercise 3**: Principal Component Analysis (PCA) y Principal Component Regression (PCR) (Dataset: Boston Housing)
-- **Topics**: Regularización L1/L2, selección de características, reducción de dimensionalidad
+#### **Homework 2 - Regularization Methods and Variable Selection**
+- **Exercise 1**: Best Subset Selection, Forward and Backward Stepwise Selection (Dataset: Hitters)
+- **Exercise 2**: Ridge and LASSO Regression (Dataset: Hitters)
+- **Exercise 3**: Principal Component Analysis (PCA) and Principal Component Regression (PCR) (Dataset: Boston Housing)
+- **Topics**: L1/L2 Regularization, feature selection, dimensionality reduction
 
-#### **Homework 3 - Modelos No Lineales**
-- **Exercise 1**: Polynomial Regression y Regression Splines (Dataset: Wage)
-- **Exercise 2**: Smoothing Splines y Local Regression
+#### **Homework 3 - Non-Linear Models**
+- **Exercise 1**: Polynomial Regression and Regression Splines (Dataset: Wage)
+- **Exercise 2**: Smoothing Splines and Local Regression
 - **Exercise 3**: Generalized Additive Models (GAMs)
 - **Dataset**: `Wage.csv`
 
 #### **Homework 4 - Support Vector Machines**
-- **Notebook principal**: `Homework_4.ipynb`
-- **Contenido**:
+- **Main Notebook**: `Homework_4.ipynb`
+- **Content**:
   - Maximal Margin Classifier
   - Support Vector Classifier
   - Kernels (Linear, Polynomial, RBF)
-  - Aplicación práctica en clasificación binaria
+  - Practical application in binary classification
 - **Dataset**: `Heart.csv` (Heart Disease dataset)
 
-### Actividades Extra
+### Extra Activities
 
 #### **Lecture 10 - Support Vector Machines**
 - **Notebook**: `SVM_exercise.ipynb`
 - **Dataset**: `Heart.csv`
-- Ejercicios adicionales sobre conceptos teóricos y prácticos de SVM
+- Additional exercises on theoretical and practical SVM concepts
 
-## 🛠️ Tecnologías y Bibliotecas
+## 🛠️ Technologies and Libraries
 
-El proyecto utiliza las siguientes bibliotecas de Python:
+The project uses the following Python libraries:
 
-### Análisis de Datos y Manipulación
-- `pandas` - Manipulación y análisis de datos
-- `numpy` - Operaciones numéricas y álgebra lineal
+### Data Analysis and Manipulation
+- `pandas` - Data manipulation and analysis
+- `numpy` - Numerical operations and linear algebra
 
-### Machine Learning y Modelado Estadístico
-- `scikit-learn` - Algoritmos de machine learning y preprocesamiento
-- `statsmodels` - Modelos estadísticos y pruebas
-- `patsy` - Fórmulas estadísticas estilo R
+### Machine Learning and Statistical Modeling
+- `scikit-learn` - Machine learning algorithms and preprocessing
+- `statsmodels` - Statistical models and tests
+- `patsy` - R-style statistical formulas
 
-### Visualización
-- `matplotlib` - Visualizaciones básicas
-- `seaborn` - Visualizaciones estadísticas avanzadas
+### Visualization
+- `matplotlib` - Basic visualizations
+- `seaborn` - Advanced statistical visualizations
 
 ### Notebooks
-- `jupyter` - Entorno de desarrollo interactivo
-- `ipython` - Shell interactivo mejorado
+- `jupyter` - Interactive development environment
+- `ipython` - Enhanced interactive shell
 
-## 📋 Requisitos
+## 📋 Requirements
 
-### Opción 1: Usar pip (requirements.txt)
+### Option 1: Using pip (requirements.txt)
 ```bash
 pip install -r requirements.txt
 ```
 
-### Opción 2: Usar Conda (environment.yml)
+### Option 2: Using Conda (environment.yml)
 ```bash
 conda env create -f environment.yml
 conda activate ind2627-stats
 ```
 
-## 🚀 Uso
+## 🚀 Usage
 
-1. Clonar el repositorio:
+1. Clone the repository:
 ```bash
 git clone https://github.com/santiago-v-2013/IND2627_Intro_Stat.git
 cd IND2627_Intro_Stat/Subject
 ```
 
-2. Instalar las dependencias (ver sección de Requisitos)
+2. Install dependencies (see Requirements section)
 
-3. Iniciar Jupyter Notebook:
+3. Start Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
 
-4. Navegar a la carpeta deseada y abrir el notebook correspondiente
+4. Navigate to the desired folder and open the corresponding notebook
 
-## 📂 Estructura de Directorios
+## 📂 Directory Structure
 
 ```
 Subject/
@@ -127,32 +127,27 @@ Subject/
             └── Heart.csv
 ```
 
-## 📖 Temas Cubiertos
+## 📖 Topics Covered
 
-1. **Regresión Lineal** - Modelos lineales simples y múltiples
-2. **Regularización** - Ridge, LASSO, Elastic Net
-3. **Selección de Variables** - Best Subset, Forward/Backward Selection
-4. **Reducción de Dimensionalidad** - PCA, PCR
-5. **Modelos No Lineales** - Polinomios, Splines, GAMs
-6. **Support Vector Machines** - Clasificación con diferentes kernels
-7. **Validación de Modelos** - Cross-validation, Test/Train split
-8. **Evaluación de Modelos** - MSE, RMSE, R², AIC, BIC, ROC-AUC
+1. **Linear Regression** - Simple and multiple linear models
+2. **Regularization** - Ridge, LASSO, Elastic Net
+3. **Variable Selection** - Best Subset, Forward/Backward Selection
+4. **Dimensionality Reduction** - PCA, PCR
+5. **Non-Linear Models** - Polynomials, Splines, GAMs
+6. **Support Vector Machines** - Classification with different kernels
+7. **Model Validation** - Cross-validation, Test/Train split
+8. **Model Evaluation** - MSE, RMSE, R², AIC, BIC, ROC-AUC
 
-## 📝 Notas Importantes
+## 📝 Important Notes
 
-- Algunos datasets se cargan desde fuentes externas cuando no están disponibles localmente
-- El dataset Boston Housing se utiliza con precaución debido a consideraciones éticas mencionadas en los notebooks
-- Todos los notebooks incluyen documentación detallada y explicaciones paso a paso
+- Some datasets are loaded from external sources when not available locally
+- The Boston Housing dataset is used with caution due to ethical considerations mentioned in the notebooks
+- All notebooks include detailed documentation and step-by-step explanations
 
-## 👤 Autor
+## 👤 Author
 
 Santiago V.
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## 🎓 Curso
-
-**IND2627 - Introducción al Aprendizaje Estadístico**  
-Doctorado - Universidad de Chile
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
